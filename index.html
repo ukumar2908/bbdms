@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Donation Benefits</title>
+<style>
+/* CSS for Menu */
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #555;
+}
+
+/* CSS for Page Content */
+.content {
+  padding: 20px;
+}
+
+h1 {
+  color: #bf0d0d;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#clock {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 50px;
+        }
+</style>
+</head>
+<body>
+
+<!-- HTML for Menu -->
+<ul class="menu">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+<div id="clock"></div>
+
+    <script>
+        // Function to update the clock every second
+        function updateClock() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            // Add leading zeros if necessary
+            hours = (hours < 10) ? '0' + hours : hours;
+            minutes = (minutes < 10) ? '0' + minutes : minutes;
+            seconds = (seconds < 10) ? '0' + seconds : seconds;
+
+            var timeString = hours + ':' + minutes + ':' + seconds;
+
+            // Update the clock element
+            document.getElementById('clock').textContent = timeString;
+        }
+
+        // Call updateClock function every second
+        setInterval(updateClock, 1000);
+
+        // Initial call to display the clock immediately
+        updateClock();
+    </script>
+<!-- Page Content -->
+<div class="image-container">
+    <img src="b2.jpg" alt="Blood Donation" width="300">
+ <img src="banner2.jpg" alt="Blood Donation" width="300">
+<img src="blood-donor111.jpg" alt="Blood Donation" width="300">
+<img src="banner3.jpg" alt="Blood Donation" width="300">
+  </div>
+<div class="content">
+  <h1>Blood Donation Benefits</h1>
+  <p>Blood donation is a profoundly humanitarian act that brings numerous benefits, both to individuals and society as a whole. Here are some key benefits:</p>
+
+  <ol>
+    <li><strong>Saving Lives:</strong> Blood transfusions are essential in medical procedures such as surgeries, organ transplants, and treatment for trauma victims.</li>
+    <li><strong>Emergency Preparedness:</strong> Donated blood ensures that hospitals can respond swiftly to emergencies, providing lifesaving treatment to those in need.</li>
+    <li><strong>Improving Health:</strong> Regular blood donation can stimulate the production of new blood cells and reduce the risk of certain diseases.</li>
+    <li><strong>Community Engagement:</strong> Blood donation fosters a sense of community and solidarity, encouraging people to contribute to the welfare of others.</li>
+    <li><strong>Raising Awareness:</strong> Blood donation campaigns educate the public about the importance of donating blood and the need for a steady blood supply.</li>
+    <li><strong>Building Social Responsibility:</strong> Blood donation promotes social responsibility and altruism, encouraging individuals to take an active role in addressing societal needs.</li>
+  </ol>
+  
+  <p>In summary, blood donation is a vital humanitarian endeavor with far-reaching benefits. By donating blood, individuals make a meaningful difference in the lives of others, embodying the principles of compassion, generosity, and solidarity.</p>
+</div>
+<div class="content">
+	<h1>Some of the proud volunteers</h>
+</div>
+<p> Web page will deploy here also <a href="http://15.207.87.228:32769/"> Nginx </a> </p>  
+<div class="image-container">
+ <img src="t3.jpg" alt="Blood Donation" width="300">
+ <img src="t4.jpg" alt="Blood Donation" width="300">
+<img src="te1.jpg" alt="Blood Donation" width="300">
+<img src="te2.jpg" alt="Blood Donation" width="300">
+  </div>
+
+</body>
+</html>
