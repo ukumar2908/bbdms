@@ -59,10 +59,10 @@ p {
 
 <!-- HTML for Menu -->
 <ul class="menu">
-  <li><a href="https://15.207.87.228/Blood-bank-manage-system/bbdms/index.php">Home</a></li>
-  <li><a href="http://15.207.87.228:32769/testabout.html">About</a></li>
-  <li><a href="http://15.207.87.228:32769/services.html">Services</a></li>
-  <li><a href="http://15.207.87.228:32769/contact.html">Contact</a></li>
+  <li><a href="#home">Home</a></li>
+  <li><a href="https://15.207.87.228/Blood-bank-manage-system/bbdms/testabout.html">About</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#contact">Contact</a></li>
 </ul>
 
 <div id="clock"></div>
@@ -117,11 +117,9 @@ p {
 <div class="content">
 	<h1>Some of the proud volunteers</h>
 </div>
-<p> Web page Deployed in nginx  <a href="http://15.207.87.228:32769/"> Nginx </a> </p> 
+<p> Web page will deploy here also <a href="http://15.207.87.228:32769/"> Nginx </a> </p>  
 <p> Web page Deployed in Tomcat  <a href="http://15.207.87.228:8081/blood-donation-web-app/"> Tomcat web Deployment </a> </p>
 <p> Web page Deployed in openshift  <a href="https://bbdms-app1-uttam-kumar-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/"> Openshift Boomi Deployment </a> </p>
-<br>
-<br>
 <div class="image-container">
  <img src="t3.jpg" alt="Blood Donation" width="300">
  <img src="t4.jpg" alt="Blood Donation" width="300">
